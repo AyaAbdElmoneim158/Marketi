@@ -2,16 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:marketi_app/core/resources/app_strings.dart';
 import 'package:marketi_app/core/theme/app_theme.dart';
-import 'package:marketi_app/core/routing/app_router.dart';
-import 'package:marketi_app/core/routing/app_routes.dart';
-
-import 'features/auth/presentation/view/congratulations_change_password.dart';
-import 'features/auth/presentation/view/create_new_password.dart';
-import 'features/auth/presentation/view/forgot_password_with_email_screen.dart';
-import 'features/auth/presentation/view/login_screen.dart';
-import 'features/auth/presentation/view/verification_code_with_email_screen.dart';
-import 'features/welcome/presentation/view/onboarding_view.dart';
-import 'features/welcome/presentation/view/splash_view.dart';
 import 'root_app.dart';
 
 class MarketiApp extends StatelessWidget {

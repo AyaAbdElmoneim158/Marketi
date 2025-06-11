@@ -45,13 +45,14 @@ class AppTheme {
       border: OutlineInputBorder(
         borderRadius: BorderRadius.all(Radius.circular(12)),
         borderSide: BorderSide(
-          color: AppColors.lightBlue700,
+          color: AppColors.rect.withOpacity(0.70),
           width: 1.4,
         ),
       ),
       // focusedBorder ....
       fillColor: AppColors.white,
       filled: true,
+      isDense: true,
       contentPadding: EdgeInsets.symmetric(
         horizontal: 14,
         vertical: 16,

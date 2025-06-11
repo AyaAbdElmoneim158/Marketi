@@ -44,6 +44,12 @@ class StylesManager {
     color: AppColors.darkBlue900,
   );
 
+  static TextStyle font20DarkBlue900SemiBold = TextStyle(
+    fontSize: 20.sp,
+    fontWeight: FontWeight.w600,
+    color: AppColors.darkBlue900,
+  );
+
   //   TextStyle(
   //   fontSize: 12.sp,
   //   fontWeight: FontWeight.w400,

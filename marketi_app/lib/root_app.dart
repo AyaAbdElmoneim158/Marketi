@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:marketi_app/core/theme/app_colors.dart';
+import 'package:marketi_app/features/cart/cart_screen.dart';
 import 'package:marketi_app/features/home/presentation/view/home_screen.dart';
+import 'package:marketi_app/features/home/presentation/view/not_found_search.dart';
+import 'package:marketi_app/features/home/presentation/view/view_all_screen.dart';
+import 'package:marketi_app/features/profile/profile_screen.dart';
+
+import 'features/home/presentation/view/details_product.dart';
 
 class RootScreen extends StatefulWidget {
   const RootScreen({super.key});
@@ -11,11 +17,14 @@ class RootScreen extends StatefulWidget {
 
 class _RootScreenState extends State<RootScreen> {
   late List<Widget> screens = const [
-    HomeScreen(), // Center(child: Text("HomePage")),
-    Center(child: Text("CartScreen")),
-    Center(child: Text("FavoritesScreen")),
-    Center(child: Text("MenuPage")),
-
+    //DetailsProductScreen(), //CartScreen(), //NotFoundSearchScreen(), //ViewAllScreen(), //HomeScreen(), // Center(child: Text("HomePage")),
+    // Center(child: Text("CartScreen")),
+    // Center(child: Text("FavoritesScreen")),
+    // Center(child: Text("MenuPage")),
+    HomeScreen(),
+    CartScreen(),
+    ViewAllScreen(),
+    ProfileScreen(),
     // HomePage(),
     // SearchScreen(),
     // CategoryScreen(),
